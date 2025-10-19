@@ -12,12 +12,29 @@ This guide is specifically designed for experienced software engineers (25+ year
 
 ## 🚀 **Quick Start**
 
+### **For MacBook M1 Users** 🍎
+```bash
+# Clone and setup M1 optimization
+git clone https://github.com/daddy-dev-id/macbook-m1-vibe-coding-setup.git
+cd macbook-m1-vibe-coding-setup
+
+# Run M1 optimization (5 minutes)
+./scripts/optimize-macbook-m1.sh
+
+# Check M1 performance
+./scripts/check-m1-performance.sh
+
+# Start vibe coding environment
+~/start-vibe-coding.sh
+```
+
 ### **For Immediate Productivity**
 1. **[Mindset & Philosophy](docs/01-mindset/README.md)** - Mental framework for AI/ML transition
 2. **[Development Environment](docs/02-environment/README.md)** - Optimal setup for AI/ML work
 3. **[Workflow Patterns](docs/03-workflow/README.md)** - Proven patterns for AI/ML development
-4. **[Common Pitfalls](docs/04-pitfalls/README.md)** - Mistakes to avoid (from experience)
-5. **[Productivity Tools](docs/05-tools/README.md)** - Essential tools and techniques
+4. **[MacBook M1 Optimization](docs/04-macbook-m1-optimization/README.md)** - M1-specific optimizations for vibe coding
+5. **[Common Pitfalls](docs/04-pitfalls/README.md)** - Mistakes to avoid (from experience)
+6. **[Productivity Tools](docs/05-tools/README.md)** - Essential tools and techniques
 
 ---
 
@@ -28,11 +45,12 @@ docs/
 ├── 01-mindset/                    # Mental framework and philosophy
 ├── 02-environment/                # Development environment setup
 ├── 03-workflow/                   # Workflow patterns and practices
-├── 04-pitfalls/                   # Common mistakes and how to avoid them
-├── 05-tools/                      # Productivity tools and techniques
-├── 06-ai-ml-basics/               # AI/ML fundamentals for experienced devs
-├── 07-transition-strategies/      # Strategies for smooth transition
-└── 08-reference/                  # Quick reference and cheat sheets
+├── 04-macbook-m1-optimization/    # M1-specific optimizations for vibe coding
+├── 05-pitfalls/                   # Common mistakes and how to avoid them
+├── 06-tools/                      # Productivity tools and techniques
+├── 07-ai-ml-basics/               # AI/ML fundamentals for experienced devs
+├── 08-transition-strategies/      # Strategies for smooth transition
+└── 09-reference/                  # Quick reference and cheat sheets
 ```
 
 ---
@@ -108,6 +126,12 @@ docs/
 - **VS Code**: With AI/ML extensions
 - **Docker**: For reproducible environments
 - **Git**: For version control and collaboration
+
+### **MacBook M1 Optimization** 🍎
+- **M1-Specific Setup**: Optimized for Apple Silicon
+- **Unified Memory**: Efficient CPU/GPU memory sharing
+- **Neural Engine**: Hardware acceleration for ML workloads
+- **Power Management**: Optimized for 24/7 development
 
 ### **AI/ML Frameworks**
 - **PyTorch**: For deep learning (recommended for beginners)
