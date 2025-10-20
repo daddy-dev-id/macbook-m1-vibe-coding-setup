@@ -33,8 +33,11 @@ cd macbook-m1-vibe-coding-setup
 2. **[Development Environment](docs/02-environment/README.md)** - Optimal setup for AI/ML work
 3. **[Workflow Patterns](docs/03-workflow/README.md)** - Proven patterns for AI/ML development
 4. **[MacBook M1 Optimization](docs/04-macbook-m1-optimization/README.md)** - M1-specific optimizations for vibe coding
-5. **[Common Pitfalls](docs/04-pitfalls/README.md)** - Mistakes to avoid (from experience)
-6. **[Productivity Tools](docs/05-tools/README.md)** - Essential tools and techniques
+5. **[Common Pitfalls](docs/05-pitfalls/README.md)** - Mistakes to avoid (from experience)
+6. **[Productivity Tools](docs/06-tools/README.md)** - Essential tools and techniques
+7. **[AI/ML Basics](docs/07-ai-ml-basics/README.md)** - AI/ML fundamentals for experienced devs
+8. **[Transition Strategies](docs/08-transition-strategies/README.md)** - Strategies for smooth transition
+9. **[Quick Reference](docs/09-reference/README.md)** - Quick reference and cheat sheets
 
 ---
 
@@ -301,6 +304,6 @@ docs/
 
 ---
 
-**Last Updated:** October 17, 2025  
+**Last Updated:** October 21, 2024  
 **Version:** 1.0  
 **Status:** ✅ READY FOR USE

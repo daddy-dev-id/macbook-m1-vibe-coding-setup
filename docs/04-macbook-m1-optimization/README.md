@@ -27,10 +27,10 @@ cd scripts/
 ### **Vibe Coding Environment Setup**
 ```bash
 # Set up vibe coding environment
-./setup-vibe-coding-m1.sh
+./optimize-macbook-m1.sh
 
 # Start optimized development
-./start-vibe-coding.sh
+~/start-vibe-coding.sh
 ```
 
 ---
@@ -746,4 +746,4 @@ debug_m1_performance()
 
 ---
 
-**Next:** [05 - Advanced M1 Optimization](05-advanced-m1-optimization/README.md)
+**Next:** [05 - Common Pitfalls](05-pitfalls/README.md)

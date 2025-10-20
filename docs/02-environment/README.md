@@ -15,7 +15,7 @@ This section covers setting up an optimal development environment for AI/ML work
 ### **Essential Tools (30 minutes)**
 ```bash
 # 1. Python environment
-conda create -n ml-dev python=3.9
+conda create -n ml-dev python=3.11
 conda activate ml-dev
 
 # 2. Essential libraries
@@ -50,7 +50,7 @@ code --install-extension ms-toolsai.jupyter
 #### **Recommended: Conda + Poetry**
 ```bash
 # Conda for system-level packages
-conda create -n ml-dev python=3.9
+conda create -n ml-dev python=3.11
 conda activate ml-dev
 
 # Poetry for project-level dependencies
@@ -61,8 +61,8 @@ poetry add torch pandas numpy matplotlib
 #### **Alternative: pyenv + pipenv**
 ```bash
 # pyenv for Python version management
-pyenv install 3.9.7
-pyenv local 3.9.7
+pyenv install 3.11.0
+pyenv local 3.11.0
 
 # pipenv for dependency management
 pipenv install torch pandas numpy matplotlib
@@ -518,7 +518,7 @@ for epoch in range(epochs):
 ## 📋 **Environment Checklist**
 
 ### **Essential Setup**
-- [ ] Python 3.9+ installed
+- [ ] Python 3.11+ installed
 - [ ] Conda or pyenv for environment management
 - [ ] VS Code with AI/ML extensions
 - [ ] Jupyter Lab installed
