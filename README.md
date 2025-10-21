@@ -63,15 +63,12 @@ python examples/quick-start-example.py
 ```
 macbook-m1-vibe-coding-setup/
 ├── 📚 docs/                          # Comprehensive documentation
-│   ├── 01-mindset/                   # Mental framework and philosophy
-│   ├── 02-environment/               # Development environment setup
-│   ├── 03-workflow/                  # Workflow patterns and practices
-│   ├── 04-macbook-m1-optimization/   # M1-specific optimizations
-│   ├── 05-pitfalls/                  # Common mistakes and solutions
-│   ├── 06-tools/                     # Productivity tools and techniques
-│   ├── 07-ai-ml-basics/              # AI/ML fundamentals
-│   ├── 08-transition-strategies/     # Transition strategies
-│   └── 09-reference/                 # Quick reference and cheat sheets
+│   ├── 01-macbook-air-setup/         # MacBook Air recovery and setup
+│   ├── 02-macbook-pro-backup/        # MacBook Pro backup and migration
+│   ├── 03-vibe-coding-setup/         # Complete vibe coding environment
+│   ├── 04-project-boards/            # Project management and tracking
+│   ├── 05-personalized-setup/        # Personalized setup based on existing apps
+│   └── README.md                      # Documentation structure guide
 ├── ⚙️  config/                        # Configuration files
 │   ├── M1_OPTIMIZATION_ACTION_PLAN.md
 │   └── M1_OPTIMIZATION_UPDATED_PLAN.md
@@ -140,20 +137,21 @@ macbook-m1-vibe-coding-setup/
 
 ## 📚 **Documentation Guide**
 
-### **For Beginners**
-1. **[Mindset & Philosophy](docs/01-mindset/README.md)** - Start here for the right mindset
-2. **[Environment Setup](docs/02-environment/README.md)** - Set up your development environment
-3. **[AI/ML Basics](docs/07-ai-ml-basics/README.md)** - Learn the fundamentals
+### **For MacBook Air Setup**
+1. **[MacBook Air Setup Guide](docs/01-macbook-air-setup/macbook-air-setup-guide-20251022.md)** - Complete setup process
+2. **[MacBook Air Issues](docs/01-macbook-air-setup/macbook-air-setup-issues-20251022.md)** - GitHub issues summary
+3. **[Project Board](docs/04-project-boards/macbook-air-setup-project-board-20251022.md)** - Track progress
 
-### **For Intermediate Users**
-1. **[Workflow Patterns](docs/03-workflow/README.md)** - Optimize your workflow
-2. **[M1 Optimization](docs/04-macbook-m1-optimization/README.md)** - Maximize M1 performance
-3. **[Productivity Tools](docs/06-tools/README.md)** - Essential tools and techniques
+### **For MacBook Pro Backup**
+1. **[Backup Plan](docs/02-macbook-pro-backup/macbook-pro-backup-plan-20251022.md)** - Complete backup strategy
 
-### **For Advanced Users**
-1. **[Transition Strategies](docs/08-transition-strategies/README.md)** - Advanced transition techniques
-2. **[Common Pitfalls](docs/05-pitfalls/README.md)** - Avoid common mistakes
-3. **[Quick Reference](docs/09-reference/README.md)** - Quick reference and cheat sheets
+### **For Vibe Coding Setup**
+1. **[Vibe Coding Guide](docs/03-vibe-coding-setup/vibe-coding-setup-guide-20251022.md)** - Complete 10-phase setup
+2. **[Project Board](docs/04-project-boards/vibe-coding-setup-project-board-20251022.md)** - Track progress
+
+### **For Personalized Completion**
+1. **[Personalized Setup](docs/05-personalized-setup/personalized-vibe-coding-setup-20251022.md)** - Current status analysis
+2. **[Personalized Board](docs/05-personalized-setup/personalized-vibe-coding-project-board-20251022.md)** - Completion tracking
 
 ---
 
