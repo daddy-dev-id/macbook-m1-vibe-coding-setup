@@ -1,0 +1,146 @@
+# MacBook M1 Vibe Coding Setup - Product Requirements Document
+
+## Project Overview
+
+**Project Name:** MacBook M1 Vibe Coding Setup
+**Target Audience:** Senior software engineers (25+ years experience) transitioning to AI/ML development
+**Goal:** Create a comprehensive, optimized development environment for AI/ML work on MacBook M1 Pro
+
+## Current System Analysis
+
+### Hardware Specifications
+- **MacBook M1 Pro:** 16GB unified memory, 8 cores (6 performance + 2 efficiency)
+- **External Storage:** LLM Disk (931GB, 67GB free) - Perfect for conda environments
+- **Current Setup:** Colima with Docker (2 CPU, 2GB RAM, 100GB disk)
+
+### Existing Infrastructure
+- **Development Tools:** Homebrew, VS Code, Node.js, Git
+- **Container Runtime:** Colima (no Docker Desktop needed)
+- **Documentation:** 9 comprehensive guides covering mindset, environment, workflow, M1 optimization, pitfalls, tools, AI/ML basics, transition strategies, and reference
+- **Scripts:** 4 optimization and setup scripts ready for execution
+
+## Core Requirements
+
+### 1. M1 System Optimization
+- **Power Management:** Optimize for 24/7 development work
+- **Memory Management:** Leverage M1 unified memory architecture
+- **Neural Engine:** Enable hardware acceleration for ML workloads
+- **Thermal Management:** Prevent throttling during intensive ML training
+
+### 2. Development Environment Setup
+- **Python Environment:** Conda installation on LLM disk for external storage
+- **ML Frameworks:** M1-optimized PyTorch and TensorFlow with GPU support
+- **Development Tools:** VS Code with AI/ML extensions, Cursor integration
+- **Container Optimization:** Enhanced Colima configuration for ML workloads
+
+### 3. Task Management System
+- **MCP Integration:** AI-powered task management via Cursor
+- **Workflow Integration:** Seamless integration with vibe coding philosophy
+- **Project Tracking:** Comprehensive task tracking and progress monitoring
+- **AI Assistance:** Intelligent task creation, expansion, and management
+
+### 4. Documentation and Learning
+- **Comprehensive Guides:** 9 detailed documentation sections
+- **Quick Reference:** Cheat sheets and quick-start guides
+- **Best Practices:** Proven patterns for AI/ML development
+- **Troubleshooting:** Common pitfalls and solutions
+
+## Technical Specifications
+
+### Phase 1: Conda Installation on LLM Disk (10 minutes)
+- Install Miniconda on `/Volumes/LLM/miniconda3/`
+- Configure conda to use LLM disk for environments
+- Set up M1-optimized conda configuration
+- Create vibe-coding environment
+
+### Phase 2: Colima Optimization (5 minutes)
+- Update Colima config for better M1 performance
+- Optimize memory allocation (4 CPU, 4GB RAM, 150GB disk)
+- Configure for ML workloads
+- Set up efficient volume management
+
+### Phase 3: M1 System Optimization (10 minutes)
+- Prevent sleep when plugged in
+- Optimize battery settings for development
+- Configure M1 unified memory usage
+- Clear memory caches and optimize performance
+
+### Phase 4: ML Environment Setup (15 minutes)
+- Create M1-optimized Python environment
+- Install PyTorch with M1 GPU support
+- Install TensorFlow with Metal GPU acceleration
+- Install essential ML libraries (NumPy, Pandas, Scikit-learn, etc.)
+
+### Phase 5: Development Tools Configuration (10 minutes)
+- Configure VS Code with M1-optimized settings
+- Install AI/ML extensions
+- Set up Python interpreter path
+- Create performance monitoring tools
+
+## Success Criteria
+
+### Performance Metrics
+- **ML Training Speed:** 2x faster than default setup
+- **Memory Efficiency:** Optimal use of 16GB unified memory
+- **External Storage:** Efficient use of LLM disk for large datasets
+- **Container Performance:** Optimized Colima for ML workloads
+
+### Development Experience
+- **Setup Time:** Complete optimization in under 50 minutes
+- **Ease of Use:** One-command setup and monitoring
+- **Documentation:** Comprehensive guides for all aspects
+- **Maintenance:** Automated scripts for ongoing optimization
+
+### Task Management
+- **AI Integration:** Seamless MCP integration with Cursor
+- **Workflow Efficiency:** Streamlined task creation and management
+- **Progress Tracking:** Clear visibility into project status
+- **Collaboration:** Easy sharing and collaboration features
+
+## Risk Mitigation
+
+### Technical Risks
+- **M1 Compatibility:** Test all components on M1 architecture
+- **External Storage:** Ensure reliable LLM disk connection
+- **Performance:** Monitor system performance during optimization
+- **Dependencies:** Manage package conflicts and version compatibility
+
+### User Experience Risks
+- **Complexity:** Provide clear, step-by-step instructions
+- **Time Investment:** Minimize setup time with automation
+- **Learning Curve:** Comprehensive documentation and examples
+- **Maintenance:** Automated scripts for ongoing optimization
+
+## Future Enhancements
+
+### Short-term (1-3 months)
+- Advanced M1 performance monitoring
+- Automated ML model optimization
+- Enhanced task management features
+- Community contributions and feedback
+
+### Long-term (3-6 months)
+- Multi-project task management
+- Advanced AI/ML workflow automation
+- Integration with cloud ML services
+- Performance analytics and insights
+
+## Success Metrics
+
+### Quantitative
+- **Setup Time:** < 50 minutes for complete optimization
+- **Performance:** 2x improvement in ML training speed
+- **Storage:** Efficient use of external LLM disk
+- **Reliability:** 99% uptime for development environment
+
+### Qualitative
+- **User Satisfaction:** Positive feedback from senior engineers
+- **Ease of Use:** Intuitive workflow and clear documentation
+- **Productivity:** Measurable improvement in development speed
+- **Learning Curve:** Smooth transition for experienced developers
+
+## Conclusion
+
+This project aims to create the ultimate MacBook M1 development environment for AI/ML work, specifically designed for senior engineers transitioning from traditional software development. The focus is on performance, ease of use, and comprehensive documentation to ensure a smooth and productive development experience.
+
+The combination of M1 optimization, external storage utilization, container optimization, and AI-powered task management creates a powerful foundation for modern AI/ML development while maintaining the "vibe coding" philosophy of sustainable, productive development practices.
