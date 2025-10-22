@@ -1,8 +1,34 @@
-# 🚀 MacBook Air Setup Guide - Restore from iCloud Backup
+# 🚀 MacBook Air Setup Guide - Complete Environment Migration
 
 **Date:** October 22, 2025  
-**Source:** MacBook Pro backup via iCloud  
+**Source:** MacBook Pro complete environment  
 **Target:** MacBook Air (fresh macOS installation)
+
+## 📚 **Available Migration Methods**
+
+### **Quick Migration (30 minutes)**
+- [Quick Migration Guide](macbook-air-quick-migration-20251022.md)
+- Perfect for: Basic setup with essential apps
+
+### **Complete Migration (3-5 hours)**
+- [Complete Migration Guide](macbook-air-environment-migration-20251022.md)
+- Perfect for: Full environment transfer
+
+### **Migration Checklist**
+- [Migration Checklist](macbook-air-migration-checklist-20251022.md)
+- Perfect for: Step-by-step verification
+
+---
+
+## 🎯 **Recommended Approach**
+
+**For most users, we recommend the Complete Migration method:**
+1. **Use Migration Assistant** for base system transfer
+2. **Manually install** development tools
+3. **Sync data** using cloud services
+4. **Verify everything** works correctly
+
+---
 
 ---
 
