@@ -1,0 +1,33 @@
+# Cursor CLI Configuration for MacBook Air M1
+# Optimized for minimal memory usage and maximum performance
+
+# Cursor CLI aliases and functions
+alias c='cursor'
+alias cchat='cursor chat'
+alias ccode='cursor code'
+alias cgit='cursor git'
+
+# Cursor CLI functions for vibe coding
+cnew() {
+    # Create new project with Cursor CLI
+    cursor new "$1" && cd "$1"
+}
+
+copen() {
+    # Open project in Cursor CLI
+    cursor open "$1"
+}
+
+cchat() {
+    # Quick chat with AI
+    cursor chat "$@"
+}
+
+ccode() {
+    # Generate code with AI
+    cursor code "$@"
+}
+
+# Memory-efficient Cursor CLI usage
+export CURSOR_MEMORY_LIMIT=2048
+export CURSOR_MAX_WORKERS=2

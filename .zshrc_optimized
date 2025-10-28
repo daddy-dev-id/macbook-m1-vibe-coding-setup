@@ -1,0 +1,57 @@
+# MacBook Air M1 Vibe Coding Setup
+# Optimized for 8GB RAM and maximum performance
+
+# Performance optimizations
+export HISTSIZE=1000
+export SAVEHIST=1000
+export HISTFILE=~/.zsh_history
+
+# Memory-efficient prompt
+export PS1="%F{blue}%n@%m%f %F{green}%~%f $ "
+
+# Essential aliases for vibe coding
+alias ll='ls -la'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Development aliases
+alias zed='zed'
+alias cursor='cursor'
+alias code='zed'  # Use Zed as default editor
+alias vim='zed'   # Use Zed instead of vim
+alias nano='zed'  # Use Zed instead of nano
+
+# Git aliases
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl='git log --oneline'
+alias gd='git diff'
+
+# Memory monitoring
+alias mem='vm_stat | head -10'
+alias topmem='ps aux | sort -nr -k 4 | head -10'
+
+# Quick directory navigation
+alias projects='cd ~/Workspace/projects'
+alias dev='cd ~/Workspace'
+
+# Node.js optimization
+export NODE_OPTIONS="--max-old-space-size=2048"
+
+# Python optimization
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONUNBUFFERED=1
+
+# Path optimizations
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# FNM (Fast Node Manager) for Node.js version management
+eval "$(fnm env --use-on-cd)"

@@ -1,0 +1,52 @@
+{
+  "icon_theme": "Catppuccin Macchiato",
+  "ui_font_family": "SF Pro Display",
+  "ui_font_size": 17,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 18,
+  "buffer_font_weight": "Medium",
+  "buffer_line_height": 1.5,
+  "buffer_letter_spacing": 0.5,
+  "theme": {
+    "mode": "dark",
+    "dark": "One Dark Pro"
+  },
+  "font_ligatures": true,
+  "cursor": {
+    "blink": true,
+    "blink_interval": 1000,
+    "width": 2
+  },
+  "selection": {
+    "background": "#264f78",
+    "foreground": "#ffffff"
+  },
+  "auto_save": "off",
+  "auto_format_on_save": false,
+  "vim_mode": false,
+  "show_completions_on_input": false,
+  "lsp": {
+    "enable_inline_completions": false,
+    "enable_snippets": false
+  },
+  "max_undo_history": 1000,
+  "max_redo_history": 100,
+  "max_search_history": 50,
+  "git": {
+    "show_status": false,
+    "show_blame": false
+  },
+  "terminal": {
+    "shell": {
+      "program": "/bin/zsh",
+      "args": ["-l"]
+    },
+    "font_size": 16,
+    "scrollback_limit": 1000
+  },
+  "file_watcher": {
+    "debounce_ms": 1000
+  },
+  "animations": false,
+  "ui_animations": false
+}
